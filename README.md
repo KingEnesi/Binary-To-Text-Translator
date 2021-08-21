@@ -1,2 +1,2 @@
 # Binary-To-Text-Translator
-This is a binary to text translator
+This a translator that translates binary code to text
