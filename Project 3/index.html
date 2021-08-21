@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Binary To Text Translator</title>
+</head>
+
+<body>
+  <section>
+    <div class="container">
+      <h1 class="title">Binary To Text Translator</h1>
+      <button type="button" class="switch" data-type="binary">switch</button>
+      <form>
+        <div class="input">
+          <textarea name="input" id="input" cols="30" rows="10" data-type="binary"
+            placeholder="Input Binary Code..."></textarea>
+        </div>
+        <button type="submit">Convert</button>
+        <div id="output">
+          Text Output...
+        </div>
+        <div class="copy">
+          <ion-icon name="clipboard"></ion-icon>
+        </div>
+      </form>
+    </div>
+  </section>
+
+
+  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

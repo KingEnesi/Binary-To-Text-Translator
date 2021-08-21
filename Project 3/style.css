@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300;400;500;600;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Code Pro", monospace;
+}
+section {
+  min-height: 100vh;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #fff;
+  padding: 50px 0;
+}
+.container {
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+  height: 100%;
+}
+.title {
+  font-size: 40px;
+  color: #111;
+  text-align: center;
+  align-items: flex-start;
+}
+form {
+  position: relative;
+  width: 100%;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+form .input {
+  width: 100%;
+}
+form textarea,
+form #output {
+  width: 80%;
+  min-height: 200px;
+  background: rgb(241, 241, 241);
+  text-align: left;
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #111;
+}
+button {
+  outline: none;
+  border: none;
+  background: rgb(24, 32, 151);
+  color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  margin: 20px 0;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:active {
+  background: #111;
+}
+.copy {
+  position: absolute;
+  font-size: 40px;
+  color: rgb(24, 32, 151) ;
+  bottom: 1%;
+  right: 11%;
+  cursor: pointer;
+}
+ion-icon{
+  pointer-events: none;
+}
